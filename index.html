@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">JASVANT</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title animated-greeting">Hi, I am <span class="highlight">Jasvant</span></h1>
+                <p class="hero-subtitle">Web Developer & Frontend Specialist</p>
+                <p class="hero-description">
+                    I craft beautiful, responsive web experiences and build modern frontend applications with cutting-edge technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="IMG_6052.JPG" alt="Jasvant" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title about-title-colored">About <span class="about-highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-text">
+                        <p>
+                            Hi, I'm <span class="about-name">Jasvant</span>, a passionate web developer specializing in frontend development with expertise in creating modern, 
+                            responsive web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.
+                        </p>
+                        <p>
+                            With a strong focus on <span class="about-highlight">user experience</span> and <span class="about-highlight">performance</span>, I build applications that not only look great 
+                            but also provide seamless functionality across all devices and browsers.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>2+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title skills-title-colored">Skills & <span class="skills-highlight">Technologies</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category skill-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item skill-animate">
+                            <i class="fab fa-html5 skill-icon-colored"></i>
+                            <span class="skill-name-colored">HTML</span>
+                        </div>
+                        <div class="skill-item skill-animate">
+                            <i class="fab fa-css3-alt skill-icon-colored"></i>
+                            <span class="skill-name-colored">CSS</span>
+                        </div>
+                        <div class="skill-item skill-animate">
+                            <i class="fab fa-js skill-icon-colored"></i>
+                            <span class="skill-name-colored">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category skill-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item skill-animate">
+                            <i class="fas fa-code skill-icon-colored"></i>
+                            <span class="skill-name-colored">C</span>
+                        </div>
+                        <div class="skill-item skill-animate">
+                            <i class="fas fa-code skill-icon-colored"></i>
+                            <span class="skill-name-colored">C++</span>
+                        </div>
+                        <div class="skill-item skill-animate">
+                            <i class="fab fa-python skill-icon-colored"></i>
+                            <span class="skill-name-colored">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Basic Calculator</h3>
+                        <p>A simple calculator web app that performs basic arithmetic operations with a clean and intuitive interface.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Typing Master</h3>
+                        <p>An interactive typing practice tool designed to help users improve their typing speed and accuracy.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-music"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Player</h3>
+                        <p>A modern music player web app with play, pause, and playlist features, designed for a smooth and interactive user experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Resume Card Section -->
+    <section id="resume" class="resume-card-section">
+      <div class="resume-card">
+        <div class="resume-icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h2 class="resume-name">Jasvant</h2>
+        <h3 class="resume-title">Web Developer & BCA Student</h3>
+        <p class="resume-desc">Download my detailed resume to learn more about my education, skills, and experience in web development.</p>
+        <div class="resume-info-list">
+          <div class="resume-info-item">
+            <span class="resume-info-icon"><i class="fas fa-graduation-cap"></i></span>
+            <span>BCA Student at Institute of Professional Studies</span>
+          </div>
+          <div class="resume-info-item">
+            <span class="resume-info-icon"><i class="fas fa-laptop-code"></i></span>
+            <span>Frontend Development Specialist</span>
+          </div>
+          <div class="resume-info-item">
+            <span class="resume-info-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span>Gangoh, Saharanpur (U.P)</span>
+          </div>
+        </div>
+        <a href="Resume1.pdf" class="resume-download-btn" download>
+          <i class="fas fa-file-download"></i> Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>paljasvant92@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Jasvant15" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jasvant-chandel-a4aaa4276/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jasvant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
